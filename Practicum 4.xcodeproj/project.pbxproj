@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D735B7116FBBDA70034CBB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D735B7016FBBDA70034CBB7 /* UIKit.framework */; };
+		6D735B7316FBBDA70034CBB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D735B7216FBBDA70034CBB7 /* Foundation.framework */; };
+		6D735B7516FBBDA70034CBB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D735B7416FBBDA70034CBB7 /* CoreGraphics.framework */; };
+		6D735B7B16FBBDA70034CBB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B7916FBBDA70034CBB7 /* InfoPlist.strings */; };
+		6D735B7D16FBBDA70034CBB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D735B7C16FBBDA70034CBB7 /* main.m */; };
+		6D735B8116FBBDA70034CBB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D735B8016FBBDA70034CBB7 /* AppDelegate.m */; };
+		6D735B8316FBBDA70034CBB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B8216FBBDA70034CBB7 /* Default.png */; };
+		6D735B8516FBBDA70034CBB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B8416FBBDA70034CBB7 /* Default@2x.png */; };
+		6D735B8716FBBDA70034CBB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B8616FBBDA70034CBB7 /* Default-568h@2x.png */; };
+		6D735B8A16FBBDA70034CBB7 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D735B8916FBBDA70034CBB7 /* AddViewController.m */; };
+		6D735B8C16FBBDA70034CBB7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B8B16FBBDA70034CBB7 /* first.png */; };
+		6D735B8E16FBBDA70034CBB7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B8D16FBBDA70034CBB7 /* first@2x.png */; };
+		6D735B9116FBBDA70034CBB7 /* RemoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D735B9016FBBDA70034CBB7 /* RemoveViewController.m */; };
+		6D735B9316FBBDA70034CBB7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B9216FBBDA70034CBB7 /* second.png */; };
+		6D735B9516FBBDA70034CBB7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B9416FBBDA70034CBB7 /* second@2x.png */; };
+		6D735B9816FBBDA70034CBB7 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B9616FBBDA70034CBB7 /* AddViewController.xib */; };
+		6D735B9B16FBBDA70034CBB7 /* RemoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D735B9916FBBDA70034CBB7 /* RemoveViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D735B6C16FBBDA70034CBB7 /* Practicum 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practicum 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D735B7016FBBDA70034CBB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D735B7216FBBDA70034CBB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D735B7416FBBDA70034CBB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D735B7816FBBDA70034CBB7 /* Practicum 4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practicum 4-Info.plist"; sourceTree = "<group>"; };
+		6D735B7A16FBBDA70034CBB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D735B7C16FBBDA70034CBB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D735B7E16FBBDA70034CBB7 /* Practicum 4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practicum 4-Prefix.pch"; sourceTree = "<group>"; };
+		6D735B7F16FBBDA70034CBB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D735B8016FBBDA70034CBB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D735B8216FBBDA70034CBB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6D735B8416FBBDA70034CBB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6D735B8616FBBDA70034CBB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6D735B8816FBBDA70034CBB7 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		6D735B8916FBBDA70034CBB7 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		6D735B8B16FBBDA70034CBB7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		6D735B8D16FBBDA70034CBB7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		6D735B8F16FBBDA70034CBB7 /* RemoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveViewController.h; sourceTree = "<group>"; };
+		6D735B9016FBBDA70034CBB7 /* RemoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveViewController.m; sourceTree = "<group>"; };
+		6D735B9216FBBDA70034CBB7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		6D735B9416FBBDA70034CBB7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		6D735B9716FBBDA70034CBB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AddViewController.xib; sourceTree = "<group>"; };
+		6D735B9A16FBBDA70034CBB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RemoveViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D735B6916FBBDA70034CBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D735B7116FBBDA70034CBB7 /* UIKit.framework in Frameworks */,
+				6D735B7316FBBDA70034CBB7 /* Foundation.framework in Frameworks */,
+				6D735B7516FBBDA70034CBB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D735B6116FBBDA70034CBB7 = {
+			isa = PBXGroup;
+			children = (
+				6D735B7616FBBDA70034CBB7 /* Practicum 4 */,
+				6D735B6F16FBBDA70034CBB7 /* Frameworks */,
+				6D735B6D16FBBDA70034CBB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D735B6D16FBBDA70034CBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D735B6C16FBBDA70034CBB7 /* Practicum 4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D735B6F16FBBDA70034CBB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D735B7016FBBDA70034CBB7 /* UIKit.framework */,
+				6D735B7216FBBDA70034CBB7 /* Foundation.framework */,
+				6D735B7416FBBDA70034CBB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D735B7616FBBDA70034CBB7 /* Practicum 4 */ = {
+			isa = PBXGroup;
+			children = (
+				6D735B7F16FBBDA70034CBB7 /* AppDelegate.h */,
+				6D735B8016FBBDA70034CBB7 /* AppDelegate.m */,
+				6D735B8816FBBDA70034CBB7 /* AddViewController.h */,
+				6D735B8916FBBDA70034CBB7 /* AddViewController.m */,
+				6D735B8B16FBBDA70034CBB7 /* first.png */,
+				6D735B8D16FBBDA70034CBB7 /* first@2x.png */,
+				6D735B8F16FBBDA70034CBB7 /* RemoveViewController.h */,
+				6D735B9016FBBDA70034CBB7 /* RemoveViewController.m */,
+				6D735B9216FBBDA70034CBB7 /* second.png */,
+				6D735B9416FBBDA70034CBB7 /* second@2x.png */,
+				6D735B9616FBBDA70034CBB7 /* AddViewController.xib */,
+				6D735B9916FBBDA70034CBB7 /* RemoveViewController.xib */,
+				6D735B7716FBBDA70034CBB7 /* Supporting Files */,
+			);
+			path = "Practicum 4";
+			sourceTree = "<group>";
+		};
+		6D735B7716FBBDA70034CBB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D735B7816FBBDA70034CBB7 /* Practicum 4-Info.plist */,
+				6D735B7916FBBDA70034CBB7 /* InfoPlist.strings */,
+				6D735B7C16FBBDA70034CBB7 /* main.m */,
+				6D735B7E16FBBDA70034CBB7 /* Practicum 4-Prefix.pch */,
+				6D735B8216FBBDA70034CBB7 /* Default.png */,
+				6D735B8416FBBDA70034CBB7 /* Default@2x.png */,
+				6D735B8616FBBDA70034CBB7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D735B6B16FBBDA70034CBB7 /* Practicum 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D735B9E16FBBDA70034CBB7 /* Build configuration list for PBXNativeTarget "Practicum 4" */;
+			buildPhases = (
+				6D735B6816FBBDA70034CBB7 /* Sources */,
+				6D735B6916FBBDA70034CBB7 /* Frameworks */,
+				6D735B6A16FBBDA70034CBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practicum 4";
+			productName = "Practicum 4";
+			productReference = 6D735B6C16FBBDA70034CBB7 /* Practicum 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D735B6316FBBDA70034CBB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Team Awesome";
+			};
+			buildConfigurationList = 6D735B6616FBBDA70034CBB7 /* Build configuration list for PBXProject "Practicum 4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D735B6116FBBDA70034CBB7;
+			productRefGroup = 6D735B6D16FBBDA70034CBB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D735B6B16FBBDA70034CBB7 /* Practicum 4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D735B6A16FBBDA70034CBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D735B7B16FBBDA70034CBB7 /* InfoPlist.strings in Resources */,
+				6D735B8316FBBDA70034CBB7 /* Default.png in Resources */,
+				6D735B8516FBBDA70034CBB7 /* Default@2x.png in Resources */,
+				6D735B8716FBBDA70034CBB7 /* Default-568h@2x.png in Resources */,
+				6D735B8C16FBBDA70034CBB7 /* first.png in Resources */,
+				6D735B8E16FBBDA70034CBB7 /* first@2x.png in Resources */,
+				6D735B9316FBBDA70034CBB7 /* second.png in Resources */,
+				6D735B9516FBBDA70034CBB7 /* second@2x.png in Resources */,
+				6D735B9816FBBDA70034CBB7 /* AddViewController.xib in Resources */,
+				6D735B9B16FBBDA70034CBB7 /* RemoveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D735B6816FBBDA70034CBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D735B7D16FBBDA70034CBB7 /* main.m in Sources */,
+				6D735B8116FBBDA70034CBB7 /* AppDelegate.m in Sources */,
+				6D735B8A16FBBDA70034CBB7 /* AddViewController.m in Sources */,
+				6D735B9116FBBDA70034CBB7 /* RemoveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D735B7916FBBDA70034CBB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D735B7A16FBBDA70034CBB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D735B9616FBBDA70034CBB7 /* AddViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D735B9716FBBDA70034CBB7 /* en */,
+			);
+			name = AddViewController.xib;
+			sourceTree = "<group>";
+		};
+		6D735B9916FBBDA70034CBB7 /* RemoveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D735B9A16FBBDA70034CBB7 /* en */,
+			);
+			name = RemoveViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D735B9C16FBBDA70034CBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D735B9D16FBBDA70034CBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D735B9F16FBBDA70034CBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practicum 4/Practicum 4-Prefix.pch";
+				INFOPLIST_FILE = "Practicum 4/Practicum 4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D735BA016FBBDA70034CBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practicum 4/Practicum 4-Prefix.pch";
+				INFOPLIST_FILE = "Practicum 4/Practicum 4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D735B6616FBBDA70034CBB7 /* Build configuration list for PBXProject "Practicum 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D735B9C16FBBDA70034CBB7 /* Debug */,
+				6D735B9D16FBBDA70034CBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D735B9E16FBBDA70034CBB7 /* Build configuration list for PBXNativeTarget "Practicum 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D735B9F16FBBDA70034CBB7 /* Debug */,
+				6D735BA016FBBDA70034CBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D735B6316FBBDA70034CBB7 /* Project object */;
+}
